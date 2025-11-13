@@ -19,6 +19,7 @@ const routes = [
         name: 'Contacto',
         component: Contacto,
     },
+
 ];
 
 const router = createRouter({

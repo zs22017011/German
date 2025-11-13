@@ -1,11 +1,21 @@
 <template>
   <header class="main-header">
     <div class="logo">
-      <router-link to="/">Giac oil & gas</router-link>
+      <router-link to="/">
+        <img src="@/assets/logogiac.svg" alt="Giac oil & gas" class="logo-img" />
+      </router-link>
     </div>
+
     <nav>
+      <router-link to="">Inicio</router-link>
+      <router-link to="">Nosotros</router-link>
+      <router-link to="">Ingeniería</router-link>
+      <router-link to="">Construcción</router-link>
+      <router-link to="">Proyectos</router-link>
+      <router-link to="">Certificaciones</router-link>
       <router-link to="/oficinas">Oficinas</router-link>
       <router-link to="/contacto">Contacto</router-link>
+
     </nav>
   </header>
 </template>
@@ -38,5 +48,13 @@ nav a {
 
 nav a:hover {
   color: #5c5c5c;
+}
+
+.logo-img {
+  width: 6rem;
+}
+
+.main-header {
+  background:transparent;
 }
 </style>
