@@ -9,6 +9,8 @@
 
   <Clientes />
 
+ <Contacto />
+
 
 
 </template>
@@ -19,6 +21,7 @@ import Ingenieria from '@/components/layout/Ingenieria.vue'
 import Certifications from '@/components/layout/Certifications.vue'
 import Construccion from "@/components/layout/Construccion.vue";
 import Clientes from "@/components/layout/Clientes.vue";
+import Contacto from "@/components/layout/Contacto.vue";
 
 </script>
 
