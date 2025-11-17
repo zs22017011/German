@@ -4,6 +4,7 @@ import Oficinas from '../views/Oficinas.vue';
 import Contacto from '../views/Contacto.vue';
 
 import NuestraEmpresa from '../views/NuestraEmpresa.vue';
+import ServiciosIngenieria from '../views/ServiciosIngenieria.vue';
 
 const routes = [
     {
@@ -21,9 +22,16 @@ const routes = [
         name: 'Contacto',
         component: Contacto,
     },
-        { path: '/nuestra-empresa',
-            name: 'Nuestra Empresa',
-            component: NuestraEmpresa }
+
+    { path: '/nuestra-empresa',
+        name: 'Nuestra Empresa',
+        component: NuestraEmpresa
+    },
+
+    { path: '/servicios-ingenieria',
+        name: 'Servicios Ingenieria',
+        component: ServiciosIngenieria
+    }
 
 ];
 
