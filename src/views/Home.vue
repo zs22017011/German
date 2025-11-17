@@ -7,6 +7,7 @@
 
   <Certifications />
 
+  <Clientes />
 
 
 
@@ -17,6 +18,7 @@ import Hero from '@/components/layout/Hero.vue'
 import Ingenieria from '@/components/layout/Ingenieria.vue'
 import Certifications from '@/components/layout/Certifications.vue'
 import Construccion from "@/components/layout/Construccion.vue";
+import Clientes from "@/components/layout/Clientes.vue";
 
 </script>
 
