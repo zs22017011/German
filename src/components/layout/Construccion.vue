@@ -9,7 +9,11 @@
         <li>Construcción, mantenimiento y fabricación de trenes de medición fiscal para medición de agua.</li>
         <li>Construcción, mantenimiento y fabricación de tanques presurizados.</li>
         <li>Construcción, mantenimiento y reparación de Tanques de Almacenamiento.</li>
+
+        <button class="conoce-mas">Ver más</button>
       </ul>
+
+
     </div>
   </section>
 </template>
@@ -35,7 +39,7 @@ import videoHeader from "@/assets/header.mp4";
   width: 100%;
   max-width: 1400px; /* área de contenido */
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0px 40px;
 
   display: flex;
   flex-direction: column;
@@ -71,5 +75,40 @@ import videoHeader from "@/assets/header.mp4";
   .right-content ul {
     font-size: 18px;
   }
+}
+
+.construccion {
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+
+  background-image: url('@/assets/construccion.png'); /* 🔥 aquí va tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.conoce-mas {
+  margin-top: 32px;
+  padding: 12px 32px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 390px;
+  position: relative;
+  z-index: 1;
+}
+
+.conoce-mas:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.03);
 }
 </style>

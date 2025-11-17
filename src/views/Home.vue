@@ -22,6 +22,6 @@ import Construccion from "@/components/layout/Construccion.vue";
 
 <style scoped>
 section {
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 </style>

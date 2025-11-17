@@ -33,12 +33,14 @@ import videoHeader from '@/assets/header.mp4'
 
 .hero {
 
-  width: 100%;
+  width: 100vw;
   height: 90vh;
   max-height: 900px;
   min-height: 500px;
   color: white;
   overflow: hidden;
+  margin-left: calc(50% - 50vw);
+
 }
 
 .bg-video {
