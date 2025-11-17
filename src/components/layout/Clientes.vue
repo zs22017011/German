@@ -7,11 +7,9 @@
 
       <div class="carousel-track">
         <img src="@/assets/clientes/pemex.png" alt="Cliente 1" />
-        <img src="@/assets/clientes/pemex.png" alt="Cliente 1" />
-        <img src="@/assets/clientes/pemex.png" alt="Cliente 1" />
-        <img src="@/assets/clientes/pemex.png" alt="Cliente 1" />
-        <img src="@/assets/clientes/pemex.png" alt="Cliente 1" />
-        <img src="@/assets/clientes/pemex.png" alt="Cliente 1" />
+        <img src="@/assets/clientes/ami.png" alt="Cliente 1" />
+        <img src="@/assets/clientes/scribe.png" alt="Cliente 1" />
+        <img src="@/assets/clientes/sedena.png" alt="Cliente 1" />
       </div>
 
       <p>             </p>
@@ -49,7 +47,7 @@
 .carousel-track {
   display: flex;
   gap: 4rem;
-  animation: scroll 18s linear infinite;
+  animation: scroll 5s linear infinite;
 }
 
 .carousel img {
