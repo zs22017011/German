@@ -20,7 +20,12 @@
         regulación, análisis y control de fludos.
       </p>
 
-      <button class="conoce-mas">Conocer más</button>
+     <!-- <button class="conoce-mas">Conocer más</button> -->
+
+      <router-link to="/nuestra-empresa" class="conoce-mas">
+        Conocer más
+      </router-link>
+
     </div>
   </section>
 </template>

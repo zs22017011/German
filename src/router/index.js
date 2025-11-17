@@ -3,6 +3,8 @@ import Home from '../views/Home.vue';
 import Oficinas from '../views/Oficinas.vue';
 import Contacto from '../views/Contacto.vue';
 
+import NuestraEmpresa from '../views/NuestraEmpresa.vue';
+
 const routes = [
     {
         path: '/',
@@ -19,6 +21,9 @@ const routes = [
         name: 'Contacto',
         component: Contacto,
     },
+        { path: '/nuestra-empresa',
+            name: 'Nuestra Empresa',
+            component: NuestraEmpresa }
 
 ];
 

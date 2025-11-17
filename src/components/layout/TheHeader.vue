@@ -7,8 +7,7 @@
     </div>
 
     <nav>
-      <router-link to="">Inicio</router-link>
-      <router-link to="">Nosotros</router-link>
+      <router-link to="/nuestra-empresa">Nosotros</router-link>
       <router-link to="">Ingeniería</router-link>
       <router-link to="">Construcción</router-link>
       <router-link to="">Proyectos</router-link>
@@ -17,6 +16,7 @@
       <router-link to="/contacto">Contacto</router-link>
 
     </nav>
+
   </header>
 </template>
 
